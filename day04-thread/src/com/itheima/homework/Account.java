@@ -14,7 +14,7 @@ public class Account {
 
     public synchronized void saveFunds(double money) {
         this.money += money;
-        System.out.println(Thread.currentThread().getName() + "卡号为:"+cardId+"存入" + money + "元后,账户的余额是:" + this.money);
+        System.out.println(Thread.currentThread().getName() + "卡号为:" + cardId + "存入" + money + "元后,账户的余额是:" + this.money);
     }
 
     public String getCardId() {

@@ -6,8 +6,8 @@ import java.util.Collections;
 
 public class Test1 {
     public static void main(String[] args) {
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("day03-file-io/src/com/itheima/homework/test1.txt"));
-             BufferedReader br = new BufferedReader(new FileReader("day03-file-io/src/com/itheima/homework/test1.txt"))
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("day03-file-io/src/com/itheima/homework/test.txt"));
+             BufferedReader br = new BufferedReader(new FileReader("day03-file-io/src/com/itheima/homework/test.txt"))
         ) {
             bw.write("33 22 11 55 44");
             bw.flush();

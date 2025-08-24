@@ -1,0 +1,12 @@
+-----------Student-----------
+name:钟晨瑶
+age:18
+hobby:演戏
+-----------Teacher-----------
+name:杨
+age:25
+hobby:讲课
+salary:10000.0
+className:429
+sex:男
+phone:15110563215
